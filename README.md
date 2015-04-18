@@ -8,6 +8,12 @@ What's on tap?
 
 ## Usage
 
+    $ punky_brewster
+    8  WIRED  HOPWIRED                    $16.00/L  7.3%
+    ALL  CHIEFS , NO  INDIANS             $14.00/L  6.0%
+    CROUCHER  LOW  RIDER  IPA             $12.00/L  2.7%
+    DALES  ESB  (EXTRA  SPECIAL  BITTER)  $14.00/L  5.6%
+    ...
 
 ## Development
 
