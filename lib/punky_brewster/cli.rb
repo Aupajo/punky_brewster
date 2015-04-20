@@ -1,6 +1,5 @@
 require "thor"
 require "punky_brewster"
-require "ostruct"
 require "nokogiri"
 require "open-uri"
 
@@ -27,7 +26,7 @@ module PunkyBrewster
         next unless past_divide
 
         if node.name == 'h2'
-          beers << OpenStruct.new
+          beers << Beer.new
           beers.last.name = node.text.upcase.gsub(/\s+/, ' ')
         elsif price = node.text.scan(/^\$(\d+\.\d+)\/L$/).flatten.first
           beers.last.price = price.to_f

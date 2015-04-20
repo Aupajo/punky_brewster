@@ -1,5 +1,5 @@
 require "punky_brewster/version"
 
 module PunkyBrewster
-  # Your code goes here...
+  Beer = Struct.new(:name, :price, :abv)
 end
