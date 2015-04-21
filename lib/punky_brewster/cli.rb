@@ -13,10 +13,12 @@ module PunkyBrewster
     end
 
     desc "list", "Show current beer list"
+    method_option :sort, default: "name", enum: %w( name price abv )
     def list
       beers = BeerListRequest.new.beers
+      sorted = beers.sort_by { |beer| beer.send(options[:sort]) }
 
-      rows = beers.sort_by(&:name).map do |beer|
+      rows = sorted.map do |beer|
         [beer.name, "$%0.2f/L" % beer.price, "%0.1f%" % beer.abv]
       end
 
