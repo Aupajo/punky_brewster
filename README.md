@@ -45,6 +45,18 @@ require 'punky_brewster/server'
 run PunkyBrewster::Server
 ```
 
+```http
+$ curl localhost:9292
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: close
+Server: thin
+
+[{"name":"EPIC PALE ALE","price":14.0,"abv":5.4},{"name":"8 WIRED HOPWIRED","price":16.0,"abv":7.3},{"name":"MUSSEL INN CAPTAIN COOKER","price":12.5,"abv":5.7},{"name":"FUNK ESTATE NZPA FRESH HOP","price":16.0,"abv":5.5},{"name":"INVERCARGILL PITCHBLACK STOUT","price":13.5,"abv":4.5},{"name":"GOLDEN EAGLE BIG YANK","price":16.0,"abv":7.5},{"name":"RENAISSANCE PARADOX PILSENER","price":14.0,"abv":4.0}]
+```
+
 Mount alongside other Rack apps (Rails, Sinatra, etc.):
 
 ```ruby
