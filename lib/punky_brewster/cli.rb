@@ -1,7 +1,5 @@
 require "thor"
 require "punky_brewster"
-require "nokogiri"
-require "open-uri"
 
 module PunkyBrewster
   class CLI < Thor

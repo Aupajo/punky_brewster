@@ -1,3 +1,5 @@
+require "nokogiri"
+
 module PunkyBrewster
   class BeerListResponse
     def initialize(raw_response)

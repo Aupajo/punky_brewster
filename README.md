@@ -6,7 +6,7 @@ What's on tap?
 
     gem install punky_brewster
 
-## Usage
+## Command line tool
 
     $ punky_brewster
     8  WIRED  HOPWIRED                    $16.00/L  7.3%
@@ -28,6 +28,38 @@ What's on tap?
     GARAGE PROJECT HAPI DAZE          $14.00/L  4.2%
     GOLDEN ALE FRESH HOP              $16.00/L  4.5%
     INVERCARGILL PITCHBLACK STOUT     $13.50/L  4.5%
+
+## Ruby Library
+
+```ruby
+require 'punky_brewster'
+BeerListRequest.new.beers
+```
+
+## JSON API Server
+
+A simple `config.ru`:
+
+```ruby
+require 'punky_brewster/server'
+run PunkyBrewster::Server
+```
+
+Mount alongside other Rack apps (Rails, Sinatra, etc.):
+
+```ruby
+require 'punky_brewster/server'
+run Rack::URLMap.new("/punky_brewster/beers.json" => PunkyBrewster::Server)
+```
+
+Need JSONP? Use the `rack-contrib` gem:
+
+```ruby
+require 'rack/contrib/json'
+require 'punky_brewster/server'
+use Rack::JSONP
+run PunkyBrewster::Server
+```
 
 ## Development
 
