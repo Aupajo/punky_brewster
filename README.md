@@ -46,7 +46,7 @@ run PunkyBrewster::Server
 ```
 
 ```http
-$ curl localhost:9292
+$ curl -i localhost:9292
 
 HTTP/1.1 200 OK
 Content-Type: application/json
