@@ -17,7 +17,8 @@ class TestServer < Minitest::Test
     expected = {
       'name' => 'EPIC PALE ALE',
       'price' => 14,
-      'abv' => 5.4
+      'abv' => 5.4,
+      'image_url' => 'http://www.punkybrewster.co.nz/uploads/3/7/6/2/37625085/7550425.jpg?74'
     }
 
     assert_equal expected, response_json.first

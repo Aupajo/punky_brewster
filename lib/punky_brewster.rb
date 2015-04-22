@@ -3,5 +3,5 @@ require "punky_brewster/beer_list_request"
 require "punky_brewster/beer_list_response"
 
 module PunkyBrewster
-  Beer = Struct.new(:name, :price, :abv)
+  Beer = Struct.new(:name, :price, :abv, :image_url)
 end
