@@ -8,6 +8,8 @@ What's on tap?
 
 ## Command line tool
 
+List beers:
+
     $ punky_brewster
     8  WIRED  HOPWIRED                    $16.00/L  7.3%
     ALL  CHIEFS , NO  INDIANS             $14.00/L  6.0%
@@ -15,19 +17,24 @@ What's on tap?
     DALES  ESB  (EXTRA  SPECIAL  BITTER)  $14.00/L  5.6%
     ...
 
+Sort beers (can be sorted by `price`, `abv`, or `abv_per_dollar`):
+
     $ punky_brewster --sort price
     CROUCHER LOW RIDER IPA            $12.00/L  2.7%
     TUATARA ITI AMERICAN PALE ALE     $12.50/L  5.8%
     MUSSEL INN CAPTAIN COOKER         $12.50/L  5.7%
     VALKYRIE FRIGG RED PILSENER       $13.50/L  5.0%
+    ...
 
+List beers sorted by most ABV per dollar:
 
-    $ punky_brewster --sort abv
-    CROUCHER LOW RIDER IPA            $12.00/L  2.7%
-    RENAISSANCE PARADOX PILSENER      $14.00/L  4.0%
-    GARAGE PROJECT HAPI DAZE          $14.00/L  4.2%
-    GOLDEN ALE FRESH HOP              $16.00/L  4.5%
-    INVERCARGILL PITCHBLACK STOUT     $13.50/L  4.5%
+    $ punky_brewster --holla-for-dollar
+    MIKE'S VANILLA COFFEE PORTER      $16.00/L  8.0%  0.50%/$
+    RAINDOGS OXYMORON BLACK IPA       $14.50/L  7.0%  0.48%/$
+    GOLDEN EAGLE BIG YANK             $16.00/L  7.5%  0.47%/$
+    MUSSEL INN CAPTAIN COOKER         $12.50/L  5.7%  0.46%/$
+    ...
+
 
 ## Ruby Library
 
