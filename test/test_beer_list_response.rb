@@ -4,13 +4,13 @@ class TestBeerListResponse < Minitest::Test
   include PunkyBrewster
 
   def response
-    VCR.use_cassette("whats-pouring") do
+    VCR.use_cassette("whats-pouring-2015-04-26") do
       BeerListRequest.new.response
     end
   end
 
   def test_returns_all_beers
-    assert_equal 21, response.beers.length
+    assert_equal 19, response.beers.length
   end
 
   def test_beer_properties

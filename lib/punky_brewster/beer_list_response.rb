@@ -11,14 +11,9 @@ module PunkyBrewster
     def beers
       @beers ||= begin
         content = document.at_css('#content')
-        divide = content.at_css('.styled-hr')
-        past_divide = false
         beer_list = []
 
         content.traverse do |node|
-          past_divide = true if node == divide
-          next unless past_divide
-
           if node.name == 'h2'
             beer_list << Beer.new
             # Includes non-breaking spaces
@@ -32,7 +27,7 @@ module PunkyBrewster
           end
         end
 
-        beer_list
+        beer_list.select(&:valid?)
       end
     end
 

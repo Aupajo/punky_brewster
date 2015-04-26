@@ -9,7 +9,7 @@ class TestCLI < Minitest::Test
   end
 
   def test_list_command
-    VCR.use_cassette("whats-pouring") do
+    VCR.use_cassette("whats-pouring-2015-04-18") do
       output = strip_heredoc(<<-POURING)
         8 WIRED HOPWIRED                  $16.00/L  7.3%
         ALL CHIEFS , NO INDIANS           $14.00/L  6.0%
@@ -39,7 +39,7 @@ class TestCLI < Minitest::Test
   end
 
   def test_list_command_sort_option
-    VCR.use_cassette("whats-pouring") do
+    VCR.use_cassette("whats-pouring-2015-04-18") do
       output = strip_heredoc(<<-POURING)
         CROUCHER LOW RIDER IPA            $12.00/L  2.7%
         TUATARA ITI AMERICAN PALE ALE     $12.50/L  5.8%
@@ -69,7 +69,7 @@ class TestCLI < Minitest::Test
   end
 
   def test_list_command_holla_for_dollar_option
-    VCR.use_cassette("whats-pouring") do
+    VCR.use_cassette("whats-pouring-2015-04-18") do
       output = strip_heredoc(<<-POURING)
         MIKE'S VANILLA COFFEE PORTER      $16.00/L  8.0%  0.50%/$
         RAINDOGS OXYMORON BLACK IPA       $14.50/L  7.0%  0.48%/$

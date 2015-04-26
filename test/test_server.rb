@@ -44,6 +44,6 @@ class TestServer < Minitest::Test
   end
 
   def make_request
-    VCR.use_cassette("whats-pouring") { get "/" }
+    VCR.use_cassette("whats-pouring-2015-04-18") { get "/" }
   end
 end

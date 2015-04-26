@@ -1,0 +1,584 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.punkybrewster.co.nz/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - www.punkybrewster.co.nz
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 26 Apr 2015 01:30:00 GMT
+      Server:
+      - Apache
+      Set-Cookie:
+      - is_mobile=0; path=/; domain=www.punkybrewster.co.nz
+      X-Host:
+      - app-64-12.intern.weebly.net
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/html; charset=UTF-8
+      X-W-Dc:
+      - SFO
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE html>\n<html>\n\t<head>\n\t\t<title>Punky Brewster - What's
+        pouring?</title>\n\n<meta property='og:site_name' content='' />\n<meta property='og:title'
+        content='Punky Brewster' />\n<meta property='og:description' content='Here
+        you can check out our selection of what&#039;s pouring at Punky Brewster.
+        Check out the tasting notes to get an idea of what you&#039;re in for!' />\n<meta
+        property='og:image' content='http://www.punkybrewster.co.nz/uploads/3/7/6/2/37625085/1427108478.png'
+        />\n<meta property='og:image' content='http://www.punkybrewster.co.nz/uploads/3/7/6/2/37625085/7550425.jpg?74'
+        />\n<meta property='og:image' content='http://www.punkybrewster.co.nz/uploads/3/7/6/2/37625085/1228356.jpg?77'
+        />\n<meta property='og:image' content='http://www.punkybrewster.co.nz/uploads/3/7/6/2/37625085/3248381.jpg?71'
+        />\n<meta property='og:image' content='http://www.punkybrewster.co.nz/uploads/3/7/6/2/37625085/5087571.png?93'
+        />\n<meta property='og:image' content='http://www.punkybrewster.co.nz/uploads/3/7/6/2/37625085/7200066.jpg'
+        />\n<meta property='og:image' content='http://www.punkybrewster.co.nz/uploads/3/7/6/2/37625085/5957313.jpg'
+        />\n<meta property='og:image' content='http://www.punkybrewster.co.nz/uploads/3/7/6/2/37625085/7170232.jpg'
+        />\n<meta property='og:image' content='http://www.punkybrewster.co.nz/uploads/3/7/6/2/37625085/2814214.jpg'
+        />\n<meta property='og:image' content='http://www.punkybrewster.co.nz/uploads/3/7/6/2/37625085/1624486.jpg'
+        />\n<meta property='og:url' content='http://www.punkybrewster.co.nz/' />\n\n<meta
+        http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n\n\t\t\n\t\t<link
+        rel=\"stylesheet\" type=\"text/css\" href=\"//cdn2.editmysite.com/css/sites.css?buildTime=1429660510\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdn1.editmysite.com/editor/libraries/fancybox/fancybox.css?1429660510\"
+        />\n<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/main_style.css?1429693448\"
+        title=\"wsite-theme-css\" />\n<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext'
+        rel='stylesheet' type='text/css' />\n<link href='//fonts.googleapis.com/css?family=Alice&subset=latin,latin-ext'
+        rel='stylesheet' type='text/css' />\n<link href='//fonts.googleapis.com/css?family=Raleway:400,300,200,700&subset=latin,latin-ext'
+        rel='stylesheet' type='text/css' />\n\n<link href='//fonts.googleapis.com/css?family=Roboto:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext'
+        rel='stylesheet' type='text/css' />\n<link href='//cdn1.editmysite.com/editor/fonts/Bebas/font.css?2'
+        rel='stylesheet' type='text/css' />\n<link href='//cdn1.editmysite.com/editor/fonts/Bebas/font.css?2'
+        rel='stylesheet' type='text/css' />\n<link href='//cdn1.editmysite.com/editor/fonts/Bebas/font.css?2'
+        rel='stylesheet' type='text/css' />\n<link href='//cdn1.editmysite.com/editor/fonts/Bebas/font.css?2'
+        rel='stylesheet' type='text/css' />\n<style type='text/css'>\n.wsite-elements.wsite-not-footer
+        div.paragraph, .wsite-elements.wsite-not-footer p, .wsite-elements.wsite-not-footer
+        .product-block .product-title, .wsite-elements.wsite-not-footer .product-description,
+        .wsite-elements.wsite-not-footer .wsite-form-field label, .wsite-elements.wsite-not-footer
+        .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content
+        .product-block .product-title, #wsite-content .product-description, #wsite-content
+        .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar
+        div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar
+        .wsite-form-field label {font-family:\"Roboto\" !important;}\n#wsite-content
+        div.paragraph, #wsite-content p, #wsite-content .product-block .product-title,
+        #wsite-content .product-description, #wsite-content .wsite-form-field label,
+        #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar
+        p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field
+        label {}\n.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer
+        p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer
+        .product-description, .wsite-elements.wsite-footer .wsite-form-field label,
+        .wsite-elements.wsite-footer .wsite-form-field label{}\n.wsite-elements.wsite-not-footer
+        h2, .wsite-elements.wsite-not-footer .product-long .product-title, .wsite-elements.wsite-not-footer
+        .product-large .product-title, .wsite-elements.wsite-not-footer .product-small
+        .product-title, #wsite-content h2, #wsite-content .product-long .product-title,
+        #wsite-content .product-large .product-title, #wsite-content .product-small
+        .product-title, .blog-sidebar h2 {font-family:\"Bebas\" !important;}\n#wsite-content
+        h2, #wsite-content .product-long .product-title, #wsite-content .product-large
+        .product-title, #wsite-content .product-small .product-title, .blog-sidebar
+        h2 {}\n.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long
+        .product-title, .wsite-elements.wsite-footer .product-large .product-title,
+        .wsite-elements.wsite-footer .product-small .product-title{}\n#wsite-title
+        {font-family:\"Bebas\" !important;}\n.wsite-menu-default a {}\n.wsite-menu
+        a {}\n.wsite-image div, .wsite-caption {}\n.galleryCaptionInnerText {}\n.fancybox-title
+        {}\n.wslide-caption-text {}\n.wsite-phone {}\n.wsite-headline {font-family:\"Bebas\"
+        !important;font-size:31px !important;line-height:7px !important;}\n.wsite-headline-paragraph
+        {font-family:\"Bebas\" !important;font-size:24px !important;line-height:13px
+        !important;}\n.wsite-button-inner {}\n.wsite-not-footer blockquote {}\n.wsite-footer
+        blockquote {}\n.blog-header h2 a {}\n#wsite-content h2.wsite-product-title
+        {}\n.wsite-product .wsite-product-price a {}\n</style>\n<style>\n.wsite-background
+        {background-image: url('//cdn1.editmysite.com/uploads/3/7/6/2/37625085/background-images/1471231464.jpg')
+        !important;background-repeat: no-repeat !important;background-position: 50%
+        50% !important;background-size: cover !important;background-color: transparent
+        !important;background: inherit;}\nbody.wsite-background {background-attachment:
+        fixed !important;}\n</style>\n\t\t<script><!--\nvar STATIC_BASE = '//cdn1.editmysite.com/';\nvar
+        STYLE_PREFIX = 'wsite';\n//-->\n</script>\n<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>\n\n<script
+        src=\"//cdn2.editmysite.com/js/site/main.js?buildTime=1429660510\"></script><script
+        type=\"text/javascript\">_W.configDomain = \"www.weebly.com\";</script><script>_W.relinquish
+        && _W.relinquish()</script>\n<script type=\"text/javascript\"><!--\n\t\n\t\n\t(function(jQuery){\n\t\tfunction
+        initFlyouts(){\n\t\t\tinitPublishedFlyoutMenus(\n\t\t\t\t[{\"id\":\"549735155280887207\",\"title\":\"What's
+        pouring?\",\"url\":\"index.html\",\"target\":\"\"},{\"id\":\"440148925905839189\",\"title\":\"Gallery\",\"url\":\"gallery.html\",\"target\":\"\"},{\"id\":\"574908379578936949\",\"title\":\"About\",\"url\":\"about.html\",\"target\":\"\"},{\"id\":\"520273165549930791\",\"title\":\"Contact\",\"url\":\"contact.html\",\"target\":\"\"}],\n\t\t\t\t\"549735155280887207\",\n\t\t\t\t\"<li
+        class=\\\"wsite-menu-item-wrap\\\"><a href=\\\"#\\\" data-membership-required=\\\"\\\"
+        class=\\\"wsite-menu-item\\\">{{title}}<\\/a><\\/li>\",\n\t\t\t\t'active',\n\t\t\t\tfalse,\n\t\t\t\t{\"site\\/menu\\/submenu-main\":\"<div
+        class=\\\"wsite-menu-wrap\\\" style=\\\"display:none\\\">{{! Designer note:
+        \\\"wsite-menu-wrap\\\" required on submenu wrapper }}\\n\\t<ul class=\\\"wsite-menu\\\">{{!
+        Designer note: \\\"wsite-menu\\\" required on submenu element }}\\n\\t\\t{{#children}}{{>
+        site\\/menu\\/submenu-item}}{{\\/children}}\\n\\t<\\/ul>\\n<\\/div>\\n\",\"site\\/menu\\/submenu-item\":\"<li{{#id}}
+        id=\\\"{{id}}\\\"{{\\/id}} class=\\\"wsite-menu-subitem-wrap{{#current_page}}
+        wsite-nav-current{{\\/current_page}}\\\">{{! Designer note: id required &
+        \\\"wsite-menu-subitem-wrap\\\" required on the item wrap }}\\n\\t<a href=\\\"{{itemlink}}\\\"{{#target}}
+        target=\\\"{{target}}\\\"{{\\/target}} class=\\\"wsite-menu-subitem\\\">{{!
+        Designer note: \\\"wsite-menu-subitem\\\" required on the item link }}\\n\\t\\t<span
+        class=\\\"wsite-menu-title\\\">\\n\\t\\t\\t{{{itemtitle}}}\\n\\t\\t<\\/span>{{#has_children}}<span
+        class=\\\"wsite-menu-arrow\\\">&gt;<\\/span>{{\\/has_children}}\\n\\t<\\/a>\\n\\t{{#has_children}}{{>
+        site\\/menu\\/submenu-main}}{{\\/has_children}}\\n<\\/li>\\n\",\"site\\/menu\\/main\":\"<ul
+        class=\\\"wsite-menu-default\\\">{{> site\\/menu\\/main-without-wrap}}<\\/ul>{{!
+        Designer note: \\\"wsite-menu-default\\\" required on menu element }}\\n\",\"site\\/menu\\/main-without-wrap\":\"{{#links}}{{!\\n}}{{#current_page}}{{>
+        site\\/menu\\/item-current}}{{\\/current_page}}{{!\\n}}{{^current_page}}{{>
+        site\\/menu\\/item}}{{\\/current_page}}{{!\\n}}{{\\/links}}\\n\",\"site\\/menu\\/item-current\":\"<li{{#id}}
+        id=\\\"{{id}}\\\"{{\\/id}} class=\\\"wsite-menu-item-wrap\\\">{{! Designer
+        note: id required & \\\"wsite-menu-item-wrap\\\" required on the item wrapper
+        }}\\n\\t<a href=\\\"{{itemlink}}\\\"{{#target}} target=\\\"{{target}}\\\"{{\\/target}}
+        class=\\\"wsite-menu-item\\\">{{! Designer note: \\\"wsite-menu-item\\\" required
+        on the item link }}\\n\\t\\t{{{itemtitle}}}\\n\\t<\\/a>\\n\\t{{#has_children}}{{>
+        site\\/menu\\/submenu-main}}{{\\/has_children}}\\n<\\/li>\\n\",\"site\\/menu\\/item\":\"<li{{#id}}
+        id=\\\"{{id}}\\\"{{\\/id}} class=\\\"wsite-menu-item-wrap\\\">{{! Designer
+        note: id required & \\\"wsite-menu-item-wrap\\\" required on the item wrapper
+        }}\\n\\t<a href=\\\"{{itemlink}}\\\" data-membership-required=\\\"{{membership-required}}\\\"{{#target}}
+        target=\\\"{{target}}\\\"{{\\/target}} class=\\\"wsite-menu-item\\\">{{! Designer
+        note: \\\"wsite-menu-item\\\" required on the item link }}\\n\\t\\t{{{itemtitle}}}\\n\\t<\\/a>\\n\\t{{#has_children}}{{>
+        site\\/menu\\/submenu-main}}{{\\/has_children}}\\n<\\/li>\\n\"}\n\t\t\t)\n\t\t}\n\t\tif
+        (jQuery) {\n\t\t\tjQuery(document).ready(function() { jQuery(initFlyouts);
+        });\n\t\t}else{\n\t\t\tif (Prototype.Browser.IE) window.onload = initFlyouts;\n\t\t\telse
+        document.observe('dom:loaded', initFlyouts);\n\t\t}\n\t})(window._W && _W.jQuery)\n//-->\n</script>\n\t\t\n\t</head>\n\t<body
+        class=\"short-header  wsite-theme-light  wsite-page-index\"><div id=\"wrapper\">\n\t<div
+        class=\"bg-wrapper\">\n\t\t<div id=\"header\">\n\t\t\t<div id=\"sitename\"><span
+        class=\"wsite-logo\">\n\n\t<a href=\"/\">\n\t\t<img src=\"/uploads/3/7/6/2/37625085/1427108478.png\"
+        style=\"margin-right:2px;\" />\n\t</a>\n\n</span></div>\n\t\t</div>\n\t\t<div
+        id=\"navigation\"><ul class=\"wsite-menu-default\"><li id=\"active\" class=\"wsite-menu-item-wrap\">\n\t<a
+        href=\"/\" class=\"wsite-menu-item\">\n\t\tWhat's pouring?\n\t</a>\n\t\n</li>\n<li
+        id=\"pg440148925905839189\" class=\"wsite-menu-item-wrap\">\n\t<a href=\"/gallery.html\"
+        data-membership-required=\"0\" class=\"wsite-menu-item\">\n\t\tGallery\n\t</a>\n\t\n</li>\n<li
+        id=\"pg574908379578936949\" class=\"wsite-menu-item-wrap\">\n\t<a href=\"/about.html\"
+        data-membership-required=\"0\" class=\"wsite-menu-item\">\n\t\tAbout\n\t</a>\n\t\n</li>\n<li
+        id=\"pg520273165549930791\" class=\"wsite-menu-item-wrap\">\n\t<a href=\"/contact.html\"
+        data-membership-required=\"0\" class=\"wsite-menu-item\">\n\t\tContact\n\t</a>\n\t\n</li>\n\n</ul>\n</div>\n\t\t<div
+        class=\"banner-wrap wsite-background wsite-custom-background\"></div>\n\t\t<div
+        id=\"content-wrapper\">\n\t\t\t<div id=\"content\"><div id='wsite-content'
+        class='wsite-elements wsite-not-footer'>\n<h2 class=\"wsite-content-title\"
+        style=\"text-align:center;\"><strong><span id=\"selectionBoundary_1426586888653_05878868978470564\"
+        class=\"rangySelectionBoundary\" style=\"line-height: 0; display: none;\">&#65279;</span><font
+        size=\"6\">What's &nbsp;Pouring &nbsp;at &nbsp;PB?</font><span id=\"selectionBoundary_1426586888653_9415982132777572\"
+        class=\"rangySelectionBoundary\" style=\"line-height: 0; display: none;\">&#65279;</span></strong><br
+        /><br /></h2>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><font
+        size=\"4\">Here you can check out our selection of what's pouring at Punky
+        Brewster.</font><br /><br /><br /><font size=\"4\">Check out the tasting notes
+        to get an idea of what you're in for!<br /></font><br /><span style=\"background-color:
+        initial;\"><br /></span></div>\n\n<div><div style=\"height: 20px; overflow:
+        hidden; width: 100%;\"></div>\r\n<hr class=\"styled-hr\" style=\"width:100%;\"></hr>\r\n<div
+        style=\"height: 20px; overflow: hidden; width: 100%;\"></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\"><font size=\"5\">OPening
+        &nbsp;hours.</font></h2>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><font
+        size=\"3\"><font color=\"#515151\"><strong>Mon/Tues</strong>&nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;CLOSED</font><br /><font color=\"#515151\"><br
+        /><strong>Wed/Thur &nbsp;</strong>&nbsp; &nbsp; &nbsp; &nbsp;12pm - 7pm</font><br
+        /><font color=\"#515151\"><br /><strong>Fri/Sat</strong>&nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;12pm - 8pm</font><br /><br /><font color=\"#515151\"><strong>Sun</strong>&nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 12pm - 5pm</font></font></div>\n\n<div><div
+        style=\"height: 20px; overflow: hidden; width: 100%;\"></div>\r\n<hr class=\"styled-hr\"
+        style=\"width:100%;\"></hr>\r\n<div style=\"height: 20px; overflow: hidden;
+        width: 100%;\"></div></div>\n\n<h2 class=\"wsite-content-title\" style=\"text-align:center;\"><span
+        style=\"background-color: initial;\"><font size=\"5\">Epic &nbsp;Pale &nbsp;Ale</font></span><br
+        /></h2>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span style=\"background-color:
+        initial;\"><font color=\"#2a2a2a\" size=\"4\">$14.00/L</font></span><br /></div>\n\n<div
+        class=\"paragraph\" style=\"text-align:center;\"><font color=\"#2a2a2a\">5.4
+        %</font></div>\n\n<div><div class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\"
+        style=\"margin:0 -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody
+        class=\"wsite-multicol-tbody\">\n\t\t\t<tr class=\"wsite-multicol-tr\">\n\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:12.121212121212%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div
+        class=\"wsite-image wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:15px;text-align:left\">\r\n<a
+        href='http://www.epicbeer.com/' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/7550425.jpg?74\"
+        alt=\"Picture\" style=\"width:auto;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:87.878787878788%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\">&nbsp; &nbsp;<br /><font size=\"4\"><span
+        style=\"\"><br /></span></font><br /><font size=\"4\"><span style=\"\">Epic
+        Pale Ale is an American style pale ale with a fruity nose and a strong hoppy
+        punch. A classic example of flavoursome NZ craft beer.</span></font><br /></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\"><font size=\"5\">8
+        &nbsp;wired &nbsp;hopwired</font></h2>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span
+        style=\"background-color: initial;\"><font color=\"#2a2a2a\" size=\"4\">$16.00/L</font></span><br
+        /></div>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><font color=\"#2a2a2a\">7.3%</font></div>\n\n<div><div
+        class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\" style=\"margin:0
+        -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody class=\"wsite-multicol-tbody\">\n\t\t\t<tr
+        class=\"wsite-multicol-tr\">\n\t\t\t\t<td class=\"wsite-multicol-col\" style=\"width:12.323232323232%;
+        padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div class=\"wsite-image
+        wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:15px;text-align:left\">\r\n<a
+        href='http://8wired.co.nz/' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/1228356.jpg?77\"
+        alt=\"Picture\" style=\"width:auto;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:87.676767676768%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><br /><br /><span style=\"\"><font
+        size=\"4\">Although there's plenty of malty sweetness, this beer is all about
+        the hops. But unlike an American IPA, which will mainly challenge you with
+        grapefruity and pine-like flavours and aromas, the kiwi hops used in HopWired
+        produce something more like a tropical punchbowl: Passion fruit, limes, oranges
+        and &nbsp; &nbsp;Sauvignon &nbsp; Blanc grapes to name but a few.</font></span><span
+        style=\"\"><br /></span><br /><br /></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\">mussel &nbsp;inn
+        &nbsp;Captain &nbsp;cooker</h2>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span
+        style=\"background-color: initial;\"><font color=\"#2a2a2a\" size=\"4\">$12.50/L</font></span><br
+        /></div>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><font color=\"#2a2a2a\">5.7%</font></div>\n\n<div><div
+        class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\" style=\"margin:0
+        -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody class=\"wsite-multicol-tbody\">\n\t\t\t<tr
+        class=\"wsite-multicol-tr\">\n\t\t\t\t<td class=\"wsite-multicol-col\" style=\"width:11.818181818182%;
+        padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div class=\"wsite-image
+        wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:15px;text-align:left\">\r\n<a
+        href='http://www.musselinn.co.nz/' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/3248381.jpg?71\"
+        alt=\"Picture\" style=\"width:auto;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:88.181818181818%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><br /><br /><span style=\"\"><font
+        size=\"4\">A very distinctive beer with notes of ginger and rose oil which
+        sometimes gives the perception of a slight sweetness although the beer is
+        fermented dry. Long known for it's medicinal qualities by the native Maori
+        population of New Zealand, manuka's high anti oxidant properties are also
+        to be found in Captain Cooker manuka beer.</font></span><span style=\"\"><br
+        /></span><br /><span style=\"\"><br /></span></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\">Funk &nbsp;Estate
+        &nbsp;NZPA &nbsp;Fresh &nbsp;hop</h2>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span
+        style=\"background-color: initial;\"><font color=\"#2a2a2a\" size=\"4\">$16.00/L</font></span><br
+        /></div>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><font color=\"#2a2a2a\">5.5%</font></div>\n\n<div><div
+        class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\" style=\"margin:0
+        -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody class=\"wsite-multicol-tbody\">\n\t\t\t<tr
+        class=\"wsite-multicol-tr\">\n\t\t\t\t<td class=\"wsite-multicol-col\" style=\"width:12.424242424242%;
+        padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div class=\"wsite-image
+        wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:left\">\r\n<a
+        href='http://www.emersons.co.nz/' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/5087571.png?93\"
+        alt=\"Picture\" style=\"width:93;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:87.575757575757%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><br /><br /><span style=\"\"><font
+        size=\"4\">Notes of grass and pine in aroma. Well rounded after feel with
+        sharp, strong hop bitterness and flavour. Colour is light gold with vague
+        cloud, Low carbonation.</font></span><br /><br /><span style=\"\"><br /></span></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\">Invercargill &nbsp;Pitchblack
+        &nbsp;stout</h2>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span
+        style=\"background-color: initial;\"><font color=\"#2a2a2a\" size=\"4\">$13.50/L</font></span><br
+        /></div>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><font color=\"#2a2a2a\">4.5%</font><span
+        id=\"selectionBoundary_1428482386108_5899396962486207\" class=\"rangySelectionBoundary\"
+        style=\"line-height: 0; display: none;\">&#65279;</span></div>\n\n<div><div
+        class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\" style=\"margin:0
+        -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody class=\"wsite-multicol-tbody\">\n\t\t\t<tr
+        class=\"wsite-multicol-tr\">\n\t\t\t\t<td class=\"wsite-multicol-col\" style=\"width:11.414141414141%;
+        padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div class=\"wsite-image
+        wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:15px;text-align:left\">\r\n<a
+        href='http://invercargillbrewery.co.nz' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/7200066.jpg\"
+        alt=\"Picture\" style=\"width:auto;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:88.585858585859%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><br /><br /><font size=\"4\">The
+        aroma and palate are rich and inviting with suggestions of sweet caramel and
+        milk chocolate combining to produce a &lsquo;Milo-like&rsquo; effect. Smooth
+        and creamy in the mouth, a late coffee-like charred roastiness and hint of
+        hop dryness combine to cleanse the palate in preparation for another sip.</font><br
+        /><br /><br /><br /></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\">golden &nbsp;eagle
+        &nbsp;Big yank</h2>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span
+        style=\"background-color: initial;\"><font color=\"#2a2a2a\" size=\"4\">$16.00/L</font></span><br
+        /></div>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span style=\"\"><font
+        color=\"#2a2a2a\">7.5%</font></span></div>\n\n<div><div class=\"wsite-multicol\"><div
+        class=\"wsite-multicol-table-wrap\" style=\"margin:0 -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody
+        class=\"wsite-multicol-tbody\">\n\t\t\t<tr class=\"wsite-multicol-tr\">\n\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:11.616161616162%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div
+        class=\"wsite-image wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:15px;text-align:left\">\r\n<a
+        href='http://www.goldeneaglebrewery.co.nz' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/5957313.jpg\"
+        alt=\"Picture\" style=\"width:auto;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:88.383838383838%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><br /><br /><font size=\"4\">American
+        Pale Ales are light in color, ranging from golden to a light copper color.
+        The style of this beer is defined by the American hops used. American hops
+        typically have high bitterness and aroma.This is a perfect beer for big fare
+        like grilled burgers or combination pizzas, as well as lighter fare like sushi
+        and green salads.</font><br /><br /><br /><br /><br /></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\"><span style=\"\">Renaissance
+        &nbsp;Paradox &nbsp;pilsener</span></h2>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span
+        style=\"background-color: initial;\"><font color=\"#2a2a2a\" size=\"4\">$14.00/L</font></span><br
+        /></div>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span style=\"\"><font
+        color=\"#2a2a2a\">4.0%</font></span></div>\n\n<div><div class=\"wsite-multicol\"><div
+        class=\"wsite-multicol-table-wrap\" style=\"margin:0 -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody
+        class=\"wsite-multicol-tbody\">\n\t\t\t<tr class=\"wsite-multicol-tr\">\n\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:11.515151515152%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div
+        class=\"wsite-image wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:15px;text-align:left\">\r\n<a
+        href='http://www.renaissancebrewing.co.nz/' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/7170232.jpg\"
+        alt=\"Picture\" style=\"width:auto;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:88.484848484848%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><span style=\"\"><br /></span><br
+        /><span style=\"\"><font size=\"4\">As soon as you flip the top off the bottle
+        you know you&rsquo;re in for something special. While the bright golden hue
+        hints at a great quaffing beer, the explosion of passionfruit and citrus aromas
+        - the signature of the Riwaka hop variety - leave you in no doubt you&rsquo;re
+        in for more than mere refreshment. On the palate the initial biscuity malt
+        sweetness is soon joined by those zingy tropical fruit hop notes and leads
+        into a racy tart finish.</font></span><br /><span style=\"\"><br /></span><br
+        /><span style=\"\"><br /></span></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\"><span style=\"\">parrotdog
+        &nbsp;Bitter &nbsp;Bitch &nbsp;IPA</span></h2>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"background-color: initial;\"><font
+        color=\"#2a2a2a\" size=\"4\">$15.50/L</font></span><br /></div>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"\"><font color=\"#2a2a2a\">5.8%</font></span></div>\n\n<div><div
+        class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\" style=\"margin:0
+        -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody class=\"wsite-multicol-tbody\">\n\t\t\t<tr
+        class=\"wsite-multicol-tr\">\n\t\t\t\t<td class=\"wsite-multicol-col\" style=\"width:11.717171717172%;
+        padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div class=\"wsite-image
+        wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:15px;text-align:left\">\r\n<a
+        href='http://parrotdog.co.nz/' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/2814214.jpg\"
+        alt=\"Picture\" style=\"width:auto;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:88.282828282828%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><span style=\"\"><br /></span><br
+        /><span style=\"\"><font size=\"4\">An aggressive, tropical New Zealand-hopped
+        aroma gives way to a rich, copper coloured malt base and \x03a huge, lingering
+        bitterness to finish. In an ode to its ancestors, we&rsquo;ve used all English
+        malts in the grist and a &nbsp; bold English bittering hop in the boil.</font></span><br
+        /><br /><span style=\"\"><br /></span></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\"><span style=\"\">Dales
+        &nbsp;ESB &nbsp;(extra &nbsp;special &nbsp;bitter)</span></h2>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"background-color: initial;\"><font
+        color=\"#2a2a2a\" size=\"4\">$14.00/L</font></span><br /></div>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"\"><font color=\"#2a2a2a\">5.6%</font></span></div>\n\n<div><div
+        class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\" style=\"margin:0
+        -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody class=\"wsite-multicol-tbody\">\n\t\t\t<tr
+        class=\"wsite-multicol-tr\">\n\t\t\t\t<td class=\"wsite-multicol-col\" style=\"width:11.111111111111%;
+        padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div class=\"wsite-image
+        wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:15px;text-align:left\">\r\n<a
+        href='http://www.dalesbrewing.co.nz/' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/1624486.jpg\"
+        alt=\"Picture\" style=\"width:auto;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:88.888888888889%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><br /><span style=\"\"><font
+        size=\"4\"><br />British Maris Otter, amber and cystal malts provide a luscious
+        toffeeish base, while a warm-fermenting London ale yeast rewards my ESB with
+        orange marmalade-like esters. All very English so far then, but a trio &nbsp;
+        of Nelson-grown hops with their zingy tropical fruit and citrus top notes
+        give the beer an unmistakeable Kiwi accent.</font></span><br /><span style=\"\"><br
+        /></span><br /><span style=\"\"><br /></span></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\"><span style=\"\">parrotdog
+        &nbsp;Bloodhound &nbsp;red &nbsp;ale</span></h2>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"background-color: initial;\"><font
+        color=\"#2a2a2a\" size=\"4\">$15.50/L</font></span><br /></div>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"\"><font color=\"#2a2a2a\">6.3%</font></span></div>\n\n<div><div
+        class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\" style=\"margin:0
+        -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody class=\"wsite-multicol-tbody\">\n\t\t\t<tr
+        class=\"wsite-multicol-tr\">\n\t\t\t\t<td class=\"wsite-multicol-col\" style=\"width:11.515151515152%;
+        padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div class=\"wsite-image
+        wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:15px;text-align:left\">\r\n<a
+        href='http://parrotdog.co.nz/' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/5033124.jpg\"
+        alt=\"Picture\" style=\"width:auto;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:88.484848484848%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><br /><br /><br /><span style=\"\"><font
+        size=\"4\">A&nbsp; grassy&nbsp; New&nbsp; Zealand-hopped&nbsp; aroma&nbsp;
+        featuring&nbsp; hints&nbsp; of&nbsp; roasted&nbsp; malt&nbsp; is&nbsp;supported&nbsp;
+        by&nbsp; a&nbsp; full-bodied, red&nbsp; coloured&nbsp; malt&nbsp; base&nbsp;and&nbsp;
+        a&nbsp; pleasant&nbsp; New&nbsp;Zealand-hopped bitterness to round off.</font></span><br
+        /><span style=\"\"><br /></span><span style=\"\"><br /></span></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\"><span style=\"\"><font
+        size=\"5\">Panhead &nbsp;Pilsener</font></span></h2>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"background-color: initial;\"><font
+        color=\"#2a2a2a\" size=\"4\">$14.00/L</font></span><br /></div>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"color: rgb(42, 42, 42); background-color:
+        initial;\">5.2%</span><br /></div>\n\n<div><div class=\"wsite-multicol\"><div
+        class=\"wsite-multicol-table-wrap\" style=\"margin:0 -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody
+        class=\"wsite-multicol-tbody\">\n\t\t\t<tr class=\"wsite-multicol-tr\">\n\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:11.515151515152%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div
+        class=\"wsite-image wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:15px;text-align:left\">\r\n<a
+        href='http://www.panhead.co.nz/' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/5843230.jpg\"
+        alt=\"Picture\" style=\"width:auto;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:88.484848484848%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><br /><font size=\"4\"><span
+        style=\"\"><br /></span></font><br /><font size=\"4\"><span style=\"\">The
+        classic kiwi hop profile of passionfruit, grapefruit and sauvignon blanc characters
+        on a combo of New Zealand and German malts. For sentimental reasons we've
+        named our Pilsner after the Port Road drags, Petone's answer to either Fast
+        and Furious or American Graffiti, we're not sure which.</span></font><br /><font
+        size=\"4\"><span style=\"\"><br /></span></font><br /><span style=\"\"><br
+        /></span></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\"><span style=\"\">Tuatara
+        &nbsp;Iti &nbsp;American &nbsp;pale &nbsp;ale</span></h2>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"background-color: initial;\"><font
+        color=\"#2a2a2a\" size=\"4\">$12.50/L</font></span><br /></div>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"\"><font color=\"#2a2a2a\">3.3%</font></span></div>\n\n<div><div
+        class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\" style=\"margin:0
+        -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody class=\"wsite-multicol-tbody\">\n\t\t\t<tr
+        class=\"wsite-multicol-tr\">\n\t\t\t\t<td class=\"wsite-multicol-col\" style=\"width:11.919191919192%;
+        padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div class=\"wsite-image
+        wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:5px;margin-right:15px;text-align:left\">\r\n<a
+        href='http://www.tuatarabrewing.co.nz' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/1086812.jpg?60\"
+        alt=\"Picture\" style=\"width:60;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:88.080808080808%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><font size=\"4\"><span style=\"\"><br
+        /></span></font><br /><font size=\"4\"><span style=\"\">Aotearoa Pale Ale
+        takes the spirit of the American version and reanimates it with a hopping
+        regime that&rsquo;s as Kiwi as a 25-year mortgage; offering a deep, long,
+        new age flavour profile.</span></font><br /><font size=\"4\"><span style=\"\"><br
+        /></span></font><br /><span style=\"\"><br /></span></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\"><span style=\"\">Raindogs
+        &nbsp;Oxymoron &nbsp;Black &nbsp;IPA</span></h2>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"background-color: initial;\"><font
+        color=\"#2a2a2a\" size=\"4\">$14.50/L</font></span><br /></div>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"\"><font color=\"#2a2a2a\">7.0%</font></span></div>\n\n<div><div
+        class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\" style=\"margin:0
+        -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody class=\"wsite-multicol-tbody\">\n\t\t\t<tr
+        class=\"wsite-multicol-tr\">\n\t\t\t\t<td class=\"wsite-multicol-col\" style=\"width:11.313131313131%;
+        padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div class=\"wsite-image
+        wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:15px;text-align:left\">\r\n<a>\r\n<img
+        src=\"/uploads/3/7/6/2/37625085/8602512.jpg?67\" alt=\"Picture\" style=\"width:67;max-width:100%\"
+        />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:88.686868686869%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><br /><br /><br /><font size=\"4\"><span
+        style=\"\">A well-balanced and toasty black IPA/Cascadian dark ale. With hints
+        of plum and chocolate and a lasting bitterness, this is an excellent beer
+        for a warm evening.</span></font><br /><font size=\"4\"><span style=\"\"><br
+        /></span></font><br /><span style=\"\"><br /></span></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\"><span style=\"\">Golden
+        &nbsp;ale &nbsp;fresh &nbsp;hop</span></h2>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span
+        style=\"background-color: initial;\"><font color=\"#2a2a2a\" size=\"4\">$16.00/L</font></span><br
+        /></div>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span style=\"\"><font
+        color=\"#2a2a2a\">4.5%</font></span></div>\n\n<div><div class=\"wsite-multicol\"><div
+        class=\"wsite-multicol-table-wrap\" style=\"margin:0 -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody
+        class=\"wsite-multicol-tbody\">\n\t\t\t<tr class=\"wsite-multicol-tr\">\n\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:9.5959595959596%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div
+        class=\"wsite-image wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:5px;text-align:center\">\r\n<a
+        href='http://www.wigrambrewing.co.nz' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/4327499.jpg?41\"
+        alt=\"Picture\" style=\"width:41;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:90.40404040404%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><font size=\"4\"><span style=\"\"><br
+        /></span></font><br /><span style=\"\"><font size=\"4\">Flavor carries the
+        aroma through before shifting to a generic malt profile and an assertive bitterness
+        that coats the tongue and sticks around for just enough time that you miss
+        it when it&rsquo;s gone. Color is gold with a light reddish hue.</font></span><span
+        style=\"\"><br /></span></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\"><span style=\"\">Mike's
+        &nbsp;vanilla &nbsp;coffee &nbsp;porter</span></h2>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"background-color: initial;\"><font
+        color=\"#2a2a2a\" size=\"4\">$16.00/L</font></span><br /></div>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"\"><font color=\"#2a2a2a\">8.0%</font></span></div>\n\n<div><div
+        class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\" style=\"margin:0
+        -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody class=\"wsite-multicol-tbody\">\n\t\t\t<tr
+        class=\"wsite-multicol-tr\">\n\t\t\t\t<td class=\"wsite-multicol-col\" style=\"width:10.606060606061%;
+        padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div class=\"wsite-image
+        wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:10px;margin-right:15px;text-align:left\">\r\n<a
+        href='http://organicbeer.co.nz/' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/8966590.jpg?46\"
+        alt=\"Picture\" style=\"width:46;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:89.393939393939%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><br /><span style=\"\"><br
+        /></span><span style=\"\"><font size=\"4\">Lovely aromas of coffee and vanilla,
+        Pours really well and sits nicely in the glass with a head that looked milkshake
+        thick. Taste takes the aroma lead, and there is an under carry of bitterness.&nbsp;</font></span><br
+        /></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\"><span style=\"\">garage
+        &nbsp;project &nbsp;Hapi &nbsp;Daze</span></h2>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"background-color: initial;\"><font
+        color=\"#2a2a2a\" size=\"4\">$14.00/L</font></span><br /></div>\n\n<div class=\"paragraph\"
+        style=\"text-align:center;\"><span style=\"\"><font color=\"#2a2a2a\">4.2%</font></span></div>\n\n<div><div
+        class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\" style=\"margin:0
+        -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody class=\"wsite-multicol-tbody\">\n\t\t\t<tr
+        class=\"wsite-multicol-tr\">\n\t\t\t\t<td class=\"wsite-multicol-col\" style=\"width:9.5959595959596%;
+        padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div class=\"wsite-image
+        wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:15px;text-align:right\">\r\n<a
+        href='http://garageproject.co.nz/' target='_blank'>\r\n<img src=\"/uploads/3/7/6/2/37625085/4368574.jpg?51\"
+        alt=\"Picture\" style=\"width:auto;max-width:100%\" />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:90.40404040404%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><font size=\"4\"><span style=\"\"><br
+        /></span></font><br /><font size=\"4\"><span style=\"\">H&#257;pi, the Maori
+        word for hop, inspires this truly Pacific pale ale. Brewed with New Zealand
+        barley and the best of the Kiwi hop harvest, Motueka, Wai-iti, Riwaka and
+        Nelson Sauvin. Assertively Hoppy - exceptionally drinkable.</span></font><br
+        /></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<div><div
+        class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\" style=\"margin:0
+        -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody class=\"wsite-multicol-tbody\">\n\t\t\t<tr
+        class=\"wsite-multicol-tr\">\n\t\t\t\t<td class=\"wsite-multicol-col\" style=\"width:9.5959595959596%;
+        padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div class=\"wsite-spacer\"
+        style=\"height:50px;\"></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td class=\"wsite-multicol-col\"
+        style=\"width:90.40404040404%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"wsite-spacer\" style=\"height:50px;\"></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\">Peckham's &nbsp;moutere
+        &nbsp;cider</h2>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span
+        style=\"background-color: initial;\"><font color=\"#2a2a2a\" size=\"4\">$14.00/L</font></span><br
+        /></div>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span style=\"\"><font
+        color=\"#2a2a2a\">5.9%</font></span></div>\n\n<div><div class=\"wsite-multicol\"><div
+        class=\"wsite-multicol-table-wrap\" style=\"margin:0 -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody
+        class=\"wsite-multicol-tbody\">\n\t\t\t<tr class=\"wsite-multicol-tr\">\n\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:10.707070707071%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div
+        class=\"wsite-image wsite-image-border-thin \" style=\"padding-top:10px;padding-bottom:10px;margin-left:10px;margin-right:0;text-align:left\">\r\n<a>\r\n<img
+        src=\"/uploads/3/7/6/2/37625085/4120724.jpg?43\" alt=\"Picture\" style=\"width:43;max-width:100%\"
+        />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:89.292929292929%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><font size=\"4\"><br /><br
+        />Only once the apples are fully ripe, are they harvested. Careful blending
+        to enhance complex varietal characteristics results in a well balanced juice.
+        This is fermented slowly, and matured for several months with minimum intervention
+        to develop full bodied, rounded flavours.</font></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\">Valkyrie &nbsp;Frigg
+        &nbsp;Red &nbsp;Pilsener</h2>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span
+        style=\"background-color: initial;\"><font color=\"#2a2a2a\" size=\"4\">$13.50/L</font></span><br
+        /></div>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span style=\"\"><font
+        color=\"#2a2a2a\">5.0%</font></span></div>\n\n<div><div class=\"wsite-multicol\"><div
+        class=\"wsite-multicol-table-wrap\" style=\"margin:0 -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody
+        class=\"wsite-multicol-tbody\">\n\t\t\t<tr class=\"wsite-multicol-tr\">\n\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:11.616161616161%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div
+        class=\"wsite-image wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:10px;margin-right:15px;text-align:left\">\r\n<a>\r\n<img
+        src=\"/uploads/3/7/6/2/37625085/6859650.jpg?60\" alt=\"Picture\" style=\"width:60;max-width:100%\"
+        />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:88.383838383838%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><span style=\"\"><br /></span><br
+        /><span style=\"\"><br /><font size=\"4\">Golden brown with a long lasting
+        frothy head, the aroma is all citrus hops wonderfully fragrant, the taste
+        is crisp tangy spicy full of bitter hoppy fruity flavours.</font></span></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<div><div
+        class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\" style=\"margin:0
+        -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody class=\"wsite-multicol-tbody\">\n\t\t\t<tr
+        class=\"wsite-multicol-tr\">\n\t\t\t\t<td class=\"wsite-multicol-col\" style=\"width:12.121212121212%;
+        padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div class=\"wsite-spacer\"
+        style=\"height:50px;\"></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td class=\"wsite-multicol-col\"
+        style=\"width:87.878787878788%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"wsite-spacer\" style=\"height:50px;\"></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div>\n\n<h2
+        class=\"wsite-content-title\" style=\"text-align:center;\">All &nbsp;chiefs
+        , no &nbsp;indians</h2>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><span
+        style=\"background-color: initial;\"><font color=\"#2a2a2a\" size=\"4\">$13.00/L</font></span><br
+        /></div>\n\n<div class=\"paragraph\" style=\"text-align:center;\"><font color=\"#2a2a2a\">6.0%</font></div>\n\n<div><div
+        class=\"wsite-multicol\"><div class=\"wsite-multicol-table-wrap\" style=\"margin:0
+        -15px;\">\n\t<table class=\"wsite-multicol-table\">\n\t\t<tbody class=\"wsite-multicol-tbody\">\n\t\t\t<tr
+        class=\"wsite-multicol-tr\">\n\t\t\t\t<td class=\"wsite-multicol-col\" style=\"width:12.727272727273%;
+        padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div><div class=\"wsite-image
+        wsite-image-border-none \" style=\"padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:left\">\r\n<a>\r\n<img
+        src=\"/uploads/3/7/6/2/37625085/8188489.jpg?146\" alt=\"Picture\" style=\"width:146;max-width:100%\"
+        />\r\n</a>\r\n<div style=\"display:block;font-size:90%\"></div>\r\n</div></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t\t<td
+        class=\"wsite-multicol-col\" style=\"width:87.272727272727%; padding:0 15px;\">\n\t\t\t\t\t\n\t\t\t\t\t\t\n\n<div
+        class=\"paragraph\" style=\"text-align:left;\"><font size=\"4\">Brewed by
+        the judges of our 2014 Brewer's Guild Awards. Offers immediate flavours of
+        cheese and walnut consistent with most cellar beer. Pleasant savory mouthfeel,
+        dry.</font></div>\n\n\n\t\t\t\t\t\n\t\t\t\t</td>\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n</div></div></div></div>\n</div>\n\t\t</div>\n\t</div>\n\t<div
+        id=\"footer\">\n\t\t<div id=\"footer-content\"><div class='wsite-elements
+        wsite-footer'>\n<div class=\"weebly-footer\" style=\"text-align:right;\"><div
+        style=\"height:10px;overflow:hidden\"></div>\r\nProudly powered by <a href=\"http://www.weebly.com/?utm_source=internal&utm_medium=footer&utm_campaign=2\"
+        href=\"_blank\">Weebly</a>\r\n<div style=\"height:10px;overflow:hidden\"></div></div></div>\n<script
+        type='text/javascript'>\n<!--\n\nif (document.cookie.match(/(^|;)\\s*is_mobile=1/))
+        {\n\tvar windowHref = window.location.href || '';\n\tif (windowHref.indexOf('?')
+        > -1) {\n\t\twindowHref += '&';\n\t} else {\n\t\twindowHref += '?';\n\t}\n\tdocument.write(\n\t\t\"&nbsp;&nbsp;&nbsp;&nbsp;\"
+        +\n\t\t\"<a class='wsite-view-link-mobile' href='\" + windowHref + \"view=mobile'>Mobile
+        Site</a>\"\n\t);\n}\n\n//-->\n</script>\n</div>\n\t</div>\n</div>\n\n\t\t\n<script
+        type=\"text/javascript\">\n\n\tvar _gaq = _gaq || [];\n\t_gaq.push(['_setAccount',
+        'UA-7870337-1']);\n\t_gaq.push(['_setDomainName', 'none']);\n\t_gaq.push(['_setAllowLinker',
+        true]);\n\t_gaq.push(['_trackPageview']);\n\n\t(function() {\n\t\tvar ga =
+        document.createElement('script'); ga.type = 'text/javascript'; ga.async =
+        true;\n\t\tga.src = ('https:' == document.location.protocol ? 'https://ssl'
+        : 'http://www') + '.google-analytics.com/ga.js';\n\t\tvar s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);\n\t})();\n\n</script>\n\n\n<!-- Quantcast
+        Tag -->\n<script type=\"text/javascript\">\nvar _qevents = _qevents || [];\n\n(function()
+        {\nvar elem = document.createElement('script');\nelem.src = (document.location.protocol
+        == \"https:\" ? \"https://secure\" : \"http://edge\") + \".quantserve.com/quant.js\";\nelem.async
+        = true;\nelem.type = \"text/javascript\";\nvar scpt = document.getElementsByTagName('script')[0];\nscpt.parentNode.insertBefore(elem,
+        scpt);\n})();\n\n_qevents.push({\nqacct:\"p-0dYLvhSGGqUWo\",\nlabels:\"l5,u37625085.u37625085s158615667244518137\"\n});\n</script>\n\n<noscript>\n<div
+        style=\"display:none;\">\n<img src=\"//pixel.quantserve.com/pixel/p-0dYLvhSGGqUWo.gif?labels=l5,u37625085.u37625085s158615667244518137\"
+        border=\"0\" height=\"1\" width=\"1\" alt=\"Quantcast\"/>\n</div>\n</noscript>\n<!--
+        End Quantcast tag -->\n\n\n<script>\n\n\t(function(jQuery) {\n\t\ttry {\n\t\t\tif
+        (jQuery) {\n\t\t\t\tjQuery('div.blog-social div.fb-like').attr('class', 'blog-social-item
+        blog-fb-like');\n\t\t\t\tjQuery('#commentArea iframe').css('min-height', '410px');\n\t\t\t\tif
+        (jQuery('.product-button').length > 0){\n\t\t\t\t\tjQuery(document).ready(function(){\n\t\t\t\t\t\tjQuery('.product-button').parent().each(function(index,
+        product){\n\t\t\t\t\t\t\tif(jQuery(product).attr('target') == 'paypal'){\n\t\t\t\t\t\t\t\tif
+        (!jQuery(product).find('> [name=\"bn\"]').length){\n\t\t\t\t\t\t\t\t\tjQuery('<input>').attr({\n\t\t\t\t\t\t\t\t\t\ttype:
+        'hidden',\n\t\t\t\t\t\t\t\t\t\tname: 'bn',\n\t\t\t\t\t\t\t\t\t\tvalue: 'DragAndDropBuil_SP_EC'\n\t\t\t\t\t\t\t\t\t}).appendTo(product);\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t}\n\t\t\t\t\t\t});\n\t\t\t\t\t});\n\t\t\t\t}\n\t\t\t}\n\t\t\telse
+        {\n\t\t\t\t// Prototype\n\t\t\t\t$$('div.blog-social div.fb-like').each(function(div)
+        {\n\t\t\t\t\tdiv.className = 'blog-social-item blog-fb-like';\n\t\t\t\t});\n\t\t\t\t$$('#commentArea
+        iframe').each(function(iframe) {\n\t\t\t\t\tiframe.style.minHeight = '410px';\n\t\t\t\t});\n\t\t\t}\n\t\t}\n\t\tcatch(ex)
+        {}\n\t})(window._W && _W.jQuery);\n\n</script>\n\n\n\t</body>\n</html>\n"
+    http_version: 
+  recorded_at: Sun, 26 Apr 2015 01:30:00 GMT
+recorded_with: VCR 2.9.3
