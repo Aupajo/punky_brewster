@@ -3,7 +3,8 @@ require 'punky_brewster'
 
 module PunkyBrewster
   class Server
-    def self.call(env)
+
+    def call(env)
       headers = { 'Content-Type' => 'application/json' }
 
       begin
@@ -18,5 +19,10 @@ module PunkyBrewster
 
       [status, headers, [body]]
     end
+
+    def self.call(env)
+      self.new.call(env)
+    end
+
   end
 end
