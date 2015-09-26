@@ -8,9 +8,7 @@ module PunkyBrewster
       headers = { 'Content-Type' => 'application/json' }
 
       begin
-        beers = BeerListRequest.new.beers
-        beers_properties = beers.map(&:to_h)
-        body = JSON.generate(beers_properties)
+        body = BeerRepository.list.to_json
         status = 200
       rescue => error
         body = JSON.generate(error: "#{error.class}: #{error}")

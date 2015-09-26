@@ -11,23 +11,23 @@ module PunkyBrewster
     def beers
       @beers ||= begin
         content = document.at_css('#content')
-        beer_list = []
+        list = []
 
         content.traverse do |node|
           if node.name == 'h2'
-            beer_list << Beer.new
+            list << Beer.new
             # Includes non-breaking spaces
-            beer_list.last.name = node.text.upcase.gsub(/[\s\u00A0]+/, ' ')
+            list.last.name = node.text.upcase.gsub(/[\s\u00A0]+/, ' ')
           elsif node.name == 'img'
-            beer_list.last.image_url = IMAGE_URL_BASE + node[:src]
+            list.last.image_url = IMAGE_URL_BASE + node[:src]
           elsif price = node.text.scan(/^\$(\d+\.\d+)\/L$/).flatten.first
-            beer_list.last.price = price.to_f
+            list.last.price = price.to_f
           elsif abv = node.text.scan(/(\d+\.\d+)\s*%/).flatten.first
-            beer_list.last.abv = abv.to_f
+            list.last.abv = abv.to_f
           end
         end
 
-        beer_list.select(&:valid?)
+        BeerList.new(list.select(&:valid?))
       end
     end
 

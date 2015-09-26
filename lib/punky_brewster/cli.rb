@@ -17,7 +17,7 @@ module PunkyBrewster
     def list
       show_abv_per_dollar = options[:holla_for_dollar] || options[:cheapskate]
 
-      beers = BeerListRequest.new.beers
+      beers = BeerRepository.list
 
       if options[:holla_for_dollar]
         sorted = beers.sort { |a, b| b.abv_per_dollar <=> a.abv_per_dollar }
