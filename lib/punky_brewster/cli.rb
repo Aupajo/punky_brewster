@@ -26,7 +26,7 @@ module PunkyBrewster
       end
 
       rows = sorted.map do |beer|
-        row = [beer.name, "$%0.2f/L" % beer.price, "%0.1f%" % beer.abv]
+        row = [beer.name, "$%0.2f/L" % beer.price, "%0.1f%%" % beer.abv]
         row << ("%0.2f%%/$" % beer.abv_per_dollar) if show_abv_per_dollar
         row
       end
